@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/*
+cores{
+	#000159 - azul escuro
+	#0002ff - azul claro
+	#ccccc - cinza claro
+	#636363 - cinza escuro
+}
+*/
+
+body{
+	font-family: arial;
+	background: url("../img/wallpaper.jpg") no-repeat fixed;
+	background-size: 1500px;
+}
+
+a{
+	text-decoration: none;
+	color: #636363;
+	transition: color .5s;
+}
+
+.esquerda{
+	text-align: left;
+}
+.centro{
+	text-align: center;
+}
+.direita{
+	text-align: right;	
+}
+
+#cabecalho{
+	background-color: rgba(0,0,0,.7);
+	color: #fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 65px;
+}
+
+#cabecalho ul{
+	padding: 5px;
+	list-style: none;
+}
+
+#cabecalho ul li{
+	text-align: center;
+	vertical-align: middle;
+	padding: 2px;
+	border: 1px solid #fff;
+	font-size: 11pt;
+	margin-bottom: 15px;
+	transition: font-size .2s;
+
+}
+
+#cabecalho ul li:hover{
+	font-size: 13pt;
+}
+
+#corpo{
+	position: relative;
+	width: auto;
+	margin: 30px 100px 30px 100px;
+	background-color: rgba(0,0,0,.7);
+	color: #fff;
+	padding: 25px;
+	text-align: justify;
+	text-indent: 15px;
+
+}
+
+#corpo h1{
+	color: #fff;
+	text-align: center;
+	transition: text-shadow .5s;
+}
+
+#corpo h1:hover{
+	text-shadow: 0px 0px 5px #000159;
+}
+
+a{
+	text-decoration: none;
+	color: #636363;
+	transition: color .5s;
+}
+
+#rodape{
+	width: auto;
+	margin: 30px 100px -8px 100px;
+	background-color: rgba(0,0,0,.7);
+	color: #fff;
+	padding: 2px 50px 2px 50px;
+	text-align: center;
+}

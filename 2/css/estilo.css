@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+/*
+cores{
+	#000159 - azul escuro
+	#0002ff - azul claro
+	#ccccc - cinza claro
+	#636363 - cinza escuro
+}
+*/
+
+body{
+	font-family: arial;
+	background: url("../img/wallpaper.jpg") no-repeat fixed;
+	background-size: 1350px;
+}
+
+a{
+	text-decoration: none;
+	color: #cccc;
+	transition: color .5s;
+}
+
+.esquerda{
+	text-align: left;
+}
+.centro{
+	text-align: center;
+}
+.direita{
+	text-align: right;	
+}
+
+#cabecalho{
+	background-color: rgba(99, 99, 99, .9);
+	color: #cccc;
+	text-align: center;
+	width: 350px;
+	margin: 0px auto 0px auto;
+	padding: 1px;
+	border: 1px solid #cccc;
+	border-radius: 10px;
+}
+
+#cabecalho #menu p span{
+	margin: 25px 10px 25px 10px;
+	transition: color 1s;
+}
+
+#cabecalho #menu p span:hover{
+	color: #fff;
+}
+
+#titulo{
+	background-color: #636363;
+	color: #cccc;
+	text-align: center;
+	margin: 240px -8px 0px -8px;
+	padding: 1px;
+	font-family: 'Indie Flower', cursive, arial;
+	font-size: 17pt;
+}
+
+#corpo{
+	margin: 300px -8px 0px -8px;
+	background-color: rgba(99, 99, 99, .9);
+	color: #fff;
+	border-radius: 7px 7px 1px 1px;
+}
+
+#corpo #artigo{
+	position: relative;
+	width: auto;
+	margin: 30px 50px 0px 50px;
+	color: #fff;
+	padding: 25px;
+	text-align: justify;
+	text-indent: 15px;
+
+}
+
+#corpo #artigo h1{
+	color: #fff;
+	text-align: center;
+	transition: text-shadow .5s;
+}
+
+.foto-legenda{
+	position: relative;
+	background-color: #ccc;
+}
+
+.foto-legenda figcaption{
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,0.4);
+	color: #636363;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: opacity 1s;
+	
+}
+
+.foto-legenda img{
+	transition: filter 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+	opacity: 1;
+}
+
+
+.foto-legenda:hover img{
+	filter: blur(3px);
+}
+
+#rodape{
+	margin: 0px -8px -8px -8px;
+	background-color:#636363;
+	color: #fff;
+	padding: 2px 50px 2px 50px;
+	text-align: center;
+	border-top: 1px solid #ccc;
+}

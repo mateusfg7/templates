@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+/* EFEITO-PISCAR */
+@keyframes pisca{
+	0%{opacity: 1}
+	50%{opacity: 0}
+}
+
+.pisca{
+	animation: pisca 1s ease .5s infinite;
+}
+/* EFEITO-PISCAR */
+
+body{
+	font-family: 'Comfortaa', arial;
+	background: url('../img/wallpaper-titulo.jpg') no-repeat 50% 50% fixed;
+}
+
+#titulo{
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	margin: 250px -8px auto -8px;
+}
+
+#titulo h1{
+	font-family: 'Righteous', sans-serif;
+	color: #fff;
+	font-size: 50pt;
+}
+
+.texto{
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	text-align: justify;
+	margin: 500px -8px 0px -8px;
+	padding: 10px;
+}
+
+#secao-corpo1{}
+
+#secao-corpo2{}
+
+
+
+#rodape{
+	border-radius: 10px 10px 0px 0px;
+	margin: 300px -8px -8px -8px;
+	height: 100px;
+	background-color:#000;
+	color: #fff;
+	padding: 2px 50px 2px 50px;
+	text-align: center;
+	border-top: 1px solid #fff;
+}
